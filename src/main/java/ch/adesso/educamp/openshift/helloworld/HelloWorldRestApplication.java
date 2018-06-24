@@ -25,4 +25,9 @@ class HelloWorld {
     ResponseEntity<String> helloWorld() {
         return new ResponseEntity<String>("Hello World!", HttpStatus.OK);
     }
+
+    @RequestMapping(value = "/", method = RequestMethod.GET, produces = MediaType.TEXT_PLAIN_VALUE)
+    ResponseEntity<String> helloRoot() {
+        return new ResponseEntity<String>("Hello World!", HttpStatus.OK);
+    }
 }
