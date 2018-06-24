@@ -1,2 +1,2 @@
 # openshift-helloworld
-Testmessage
+Yet another Testmessage
