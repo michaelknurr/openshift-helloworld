@@ -2,6 +2,7 @@ FROM codecentric/springboot-maven3-centos
 
 USER root
 
+RUN mvn clean install
 ADD target/helloworld-0.0.1-SNAPSHOT.jar ${HOME}
 
 CMD echo "=> Starting helloworld"
