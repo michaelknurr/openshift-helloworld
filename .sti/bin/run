@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # run the application
-CMD java -jar helloworld.jar
+java -jar helloworld.jar
