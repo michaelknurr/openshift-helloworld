@@ -8,7 +8,7 @@ WORKDIR /opt/app-root
 
 COPY . .
 RUN mvn clean install
-ADD target/helloworld-0.0.1-SNAPSHOT.jar ${HOME}
+CMD cp target/helloworld-0.0.1-SNAPSHOT.jar ./helloworld.jar
 
 CMD echo "=> Starting helloworld"
-CMD java -jar helloworld-0.0.1-SNAPSHOT.jar
+CMD java -jar helloworld.jar
