@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "starting s2i run script"
+echo "starting sti run script"
 
 # run the application
 java -jar helloworld.jar

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "starting s2i assemble script"
+echo "starting sti assemble script"
 
 # restore build artifacts
 if [ "$(ls /tmp/sti/artifacts/ 2>/dev/null)" ]; then

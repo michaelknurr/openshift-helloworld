@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "starting s2i assemble script"
+
 # restore build artifacts
 if [ "$(ls /tmp/sti/artifacts/ 2>/dev/null)" ]; then
     mv /tmp/sti/artifacts/* $HOME/.
