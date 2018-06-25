@@ -1,4 +1,6 @@
 #!/bin/bash
 
+echo "starting s2i run script"
+
 # run the application
 java -jar helloworld.jar
