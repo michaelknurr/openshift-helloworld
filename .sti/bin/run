@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "starting sti run script"
-
-# run the application
-java -jar helloworld.jar

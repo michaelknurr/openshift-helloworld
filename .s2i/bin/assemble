@@ -2,13 +2,13 @@
 
 echo "starting s2i assemble script"
 
-# restore build artifacts
-if [ "$(ls /tmp/sti/artifacts/ 2>/dev/null)" ]; then
-    mv /tmp/sti/artifacts/* $HOME/.
-fi
+echo "pwd:"
+pwd
 
-# move the application source
-mv /tmp/sti/src $HOME/src
+echo "ls -l:"
+ls -l
+
+cp -Rf /tmp/src/. ./
 
 # build application artifacts
 pushd ${HOME}
