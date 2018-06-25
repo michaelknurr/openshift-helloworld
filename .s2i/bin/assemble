@@ -8,6 +8,7 @@ pwd
 echo "ls -l:"
 ls -l
 
+echo "copy"
 cp -Rf /tmp/src/. ./
 
 # build application artifacts
